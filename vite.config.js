@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/TP4_LENGIV_REACT/',
+  base: '/TP4_LENGIV_REACT-/'
 })
