@@ -1,16 +1,12 @@
-# TP3 - Lenguajes IV (React + Vite + EmailJS)
+# TP4 - Lenguajes IV (React + Vite + EmailJS)
 
-Estructura basada en tu TP2, agregando navegación y página **Contacto** con envío de email mediante **EmailJS**.
-
-## Pasos
-1. Duplicar `.env.example` como `.env` y completar:
-```
-VITE_EMAILJS_PUBLIC_KEY=...
-VITE_EMAILJS_SERVICE_ID=...
-VITE_EMAILJS_TEMPLATE_ID=...
-```
-2. Instalar deps: `npm i`
-3. Dev: `npm run dev`
-4. Deploy GH Pages: setear `base` en `vite.config.js` y correr `npm run deploy`.
-
-> Los estilos están separados por componente en sus archivos `.css`.
+A) Agregar una nueva página denominada “Servicios”, la cual, también
+debe ser agregada al menú de navegación existente, para acceder a la
+misma.
+Esta nueva página deberá tomar datos obtenidos de un array de
+objetos, existente en forma local, y mostrar los mismos en la página
+servicios. Los campos de los objetos existentes en el array, tienen que
+ser datos relacionados a una habitación de hotel, y mínimamente debe
+tener una imagen.
+B) En la página de contacto, embeber un mapa al lado del formulario de
+contacto. (ubicación del mapa a criterio del alumno).
