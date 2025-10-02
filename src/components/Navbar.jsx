@@ -10,6 +10,7 @@ export default function Navbar(){
       <div className="links">
         <NavLink to="/" className={linkClass}>Inicio</NavLink>
         <NavLink to="/contacto" className={linkClass}>Contacto</NavLink>
+        <NavLink to="/servicios" className={linkClass}>Servicios</NavLink>
       </div>
     </nav>
   )
